@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>DMD | Davenport Mobile Detailing</title>
+<meta name="description" content="DMD — Davenport Mobile Detailing. We bring the detail to you.">
+<style>
+:root{--bg:#071018;--card:#0d1a24;--blue:#19a7ff;--text:#f5f8fb;--muted:#a9b7c3;--line:#203342}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.5}
+a{text-decoration:none;color:inherit}.nav{position:sticky;top:0;z-index:5;background:#071018ee;border-bottom:1px solid var(--line)}
+.navin{max-width:1100px;margin:auto;padding:15px 22px;display:flex;align-items:center;justify-content:space-between}.logo{font-size:27px;font-weight:900;letter-spacing:3px}.logo span{color:var(--blue)}
+.links{display:flex;gap:25px;font-weight:700;font-size:14px}.btn{display:inline-block;padding:13px 20px;border-radius:9px;background:var(--blue);color:#00111c;font-weight:900;border:0;cursor:pointer}
+.hero{min-height:650px;display:flex;align-items:center;background:radial-gradient(circle at 78% 35%,#123a55 0,transparent 34%),linear-gradient(135deg,#071018,#091923)}
+.heroin{max-width:1100px;width:100%;margin:auto;padding:80px 22px}.eyebrow{color:var(--blue);font-weight:900;letter-spacing:2px;text-transform:uppercase}
+.hero h1{font-size:clamp(48px,8vw,86px);line-height:.95;margin:18px 0}.hero h1 span{color:var(--blue)}.hero p{font-size:21px;color:var(--muted);max-width:650px}
+.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.outline{display:inline-block;padding:12px 19px;border:1px solid #496275;border-radius:9px;font-weight:800}
+section{padding:75px 22px}.wrap{max-width:1100px;margin:auto}h2{font-size:38px;margin:0 0 12px}.sub{color:var(--muted);margin:0 0 35px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:27px}.featured{border-color:var(--blue)!important}
+.price{font-size:42px;font-weight:900;margin:15px 0}.tag{font-size:12px;color:var(--blue);font-weight:900;letter-spacing:1px}ul{padding-left:20px;color:var(--muted)}li{margin:9px 0}
+.addons{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.addon{padding:18px;background:#0b1720;border:1px solid var(--line);border-radius:12px}.addon b{display:block}.addon span{color:var(--muted)}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:25px;align-items:start}.why{display:grid;gap:13px}.why div{padding:20px;border:1px solid var(--line);border-radius:13px;background:var(--card)}.why span{color:var(--muted)}
+form{display:grid;gap:13px;background:var(--card);border:1px solid var(--line);padding:25px;border-radius:16px}input,select,textarea{width:100%;padding:14px;background:#071018;border:1px solid #314654;border-radius:9px;color:white;font:inherit}textarea{min-height:110px}.formrow{display:grid;grid-template-columns:1fr 1fr;gap:13px}.note{font-size:13px;color:var(--muted)}
+footer{border-top:1px solid var(--line);padding:35px 22px;color:var(--muted)}footer .wrap{display:flex;justify-content:space-between;gap:20px}
+@media(max-width:750px){.links{display:none}.grid,.addons,.split{grid-template-columns:1fr}.hero{min-height:600px}.hero h1{font-size:58px}.formrow{grid-template-columns:1fr}section{padding:55px 18px}footer .wrap{display:block}}
+</style>
+</head>
+<body>
+<nav class="nav"><div class="navin">
+<a class="logo" href="#">D<span>M</span>D</a>
+<div class="links"><a href="#services">Services</a><a href="#about">Why DMD</a><a href="#book">Book</a></div>
+<div style="display:flex;gap:8px;align-items:center"><a class="outline" href="tel:+15633706064">Call</a><a class="btn" href="sms:+15633706064">Text</a></div>
+</div></nav>
+
+<header class="hero"><div class="heroin">
+<div class="eyebrow">Davenport • Quad Cities</div>
+<h1>WE BRING THE<br><span>DETAIL</span> TO YOU.</h1>
+<p>Professional mobile car detailing without the hassle of leaving your driveway. DMD comes to you and brings your vehicle back to life.</p>
+<div class="actions"><a class="btn" href="#book">Get a Free Quote</a><a class="outline" href="#services">View Packages</a></div>
+</div></header>
+
+<section id="services"><div class="wrap">
+<h2>Simple. Clean. Professional.</h2><p class="sub">Straightforward packages for cars, trucks, and SUVs.</p>
+<div class="grid">
+<div class="card"><div class="tag">QUICK CLEAN</div><div class="price">$59</div><ul><li>Exterior hand wash</li><li>Wheels & tires</li><li>Exterior windows</li><li>Interior vacuum</li><li>Dashboard & console wipe-down</li><li>Trash removal</li></ul><a class="outline" href="#book">Book Quick Clean</a></div>
+<div class="card featured"><div class="tag">MOST POPULAR</div><div class="price">$119</div><ul><li>Everything in Quick Clean</li><li>Deep interior vacuum</li><li>Floor mats & door panels</li><li>Interior windows</li><li>Detailed dashboard & console</li><li>Wheel wells & tire dressing</li></ul><a class="btn" href="#book">Book Full Clean</a></div>
+<div class="card"><div class="tag">COMPLETE CLEAN</div><div class="price">$179</div><ul><li>Everything in Full Clean</li><li>Deeper stain treatment</li><li>Heavy vacuuming & crevices</li><li>Trunk cleaning</li><li>Pet-hair removal up to 30 min</li><li>Spray protection & final inspection</li></ul><a class="outline" href="#book">Book Complete Clean</a></div>
+</div></div></section>
+
+<section><div class="wrap"><h2>Add-ons</h2><p class="sub">Customize your detail.</p>
+<div class="addons"><div class="addon"><b>Pet Hair +$25</b><span>Additional removal time</span></div><div class="addon"><b>Heavy Stains +$15</b><span>Extra spot treatment</span></div><div class="addon"><b>Truck/SUV +$20</b><span>Additional size charge</span></div><div class="addon"><b>Headlights +$50</b><span>Headlight restoration</span></div></div>
+</div></section>
+
+<section id="about"><div class="wrap split"><div><h2>Why DMD?</h2><p class="sub">Local mobile detailing built around convenience, attention to detail, and straightforward pricing.</p></div>
+<div class="why"><div><b>📍 We Come to You</b><span>No waiting room. Your driveway becomes the detail bay.</span></div><div><b>✨ Detail-Focused</b><span>We clean the areas quick washes skip.</span></div><div><b>💬 Straightforward Pricing</b><span>Clear packages and add-ons before work starts.</span></div><div><b>🚗 Local Service</b><span>Davenport-based and serving the Quad Cities.</span></div></div>
+</div></section>
+
+<section id="book"><div class="wrap split"><div><h2>Book Your Detail</h2><p class="sub">Send a request and DMD will follow up to confirm your service and appointment.</p><p><strong>Serving Davenport & surrounding Quad Cities.</strong></p><p><strong>Call:</strong> <a href="tel:+15633706064">(563) 370-6064</a><br><strong>Text:</strong> <a href="sms:+15633706064">(563) 370-6064</a></p><p class="note">This is a booking request, not an instant appointment.</p></div>
+<form id="bookingForm"><div class="formrow"><input name="name" placeholder="Your name" required><input name="phone" placeholder="Phone number" required></div>
+<input name="email" type="email" placeholder="Email (optional)">
+<div class="formrow"><select name="package" required><option value="">Choose a package</option><option>Quick Clean — $59</option><option>Full Clean — $119</option><option>Complete Clean — $179</option><option>Custom / Quote</option></select><input name="vehicle" placeholder="Vehicle (ex. 2022 Ford F-150)" required></div>
+<div class="formrow"><input name="date" type="date"><input name="time" type="time"></div>
+<input name="location" placeholder="Service address / area" required><textarea name="notes" placeholder="Pet hair, stains, very dirty, etc."></textarea>
+<button class="btn" type="submit">Send Booking Request</button><div class="note">Prefer to talk? <a href="tel:+15633706064">(563) 370-6064</a> or <a href="sms:+15633706064">text DMD</a>.</div><div id="success" class="note"></div></form>
+</div></section>
+
+<footer><div class="wrap"><div><strong>DMD — Davenport Mobile Detailing</strong><br>We Bring the Detail to You.<br><a href="tel:+15633706064">(563) 370-6064</a> · <a href="sms:+15633706064">Text DMD</a></div><div>© <span id="year"></span> DMD.</div></div></footer>
+<script>
+document.getElementById('year').textContent=new Date().getFullYear();
+document.getElementById('bookingForm').addEventListener('submit',function(e){
+e.preventDefault();const d=Object.fromEntries(new FormData(this));const body=Object.entries(d).map(x=>x[0].toUpperCase()+': '+x[1]).join('%0D%0A');
+window.location.href='mailto:?subject='+encodeURIComponent('DMD Booking Request — '+d.name)+'&body='+body;
+document.getElementById('success').textContent='Your email app should open with the booking request. Add DMD’s business email before launch.';
+});
+</script>
+</body></html>
